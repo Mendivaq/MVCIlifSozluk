@@ -1,0 +1,17 @@
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
