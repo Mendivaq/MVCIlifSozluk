@@ -84,3 +84,16 @@ C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\obj\Debug\IlifSozluk.csproj.Co
 C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\obj\Debug\IlifSozluk.csproj.CopyComplete
 C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\obj\Debug\IlifSozluk.dll
 C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\obj\Debug\IlifSozluk.pdb
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\BusinessLayer.dll
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\DataAccessLayer.dll
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityLayer.dll
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityFramework.dll
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\BusinessLayer.pdb
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\BusinessLayer.dll.config
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\DataAccessLayer.pdb
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\DataAccessLayer.dll.config
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityLayer.pdb
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityLayer.dll.config
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityFramework.xml
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityFramework.SqlServer.dll
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityFramework.SqlServer.xml
