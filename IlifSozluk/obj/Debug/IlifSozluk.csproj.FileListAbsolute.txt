@@ -97,3 +97,5 @@ C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityLayer.dll.config
 C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityFramework.xml
 C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityFramework.SqlServer.dll
 C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\EntityFramework.SqlServer.xml
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\FluentValidation.dll
+C:\Users\cosku\source\repos\IlifSozluk\IlifSozluk\bin\FluentValidation.xml

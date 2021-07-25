@@ -17,6 +17,7 @@
             <th>ID</th>
             <th>AD</th>
             <th>DURUM</th>
+            
         </tr>
         @foreach (var item in Model)
         {
@@ -24,9 +25,13 @@
                 <td>@item.CategoryID</td>
                 <td>@item.CategoryName</td>
                 <td>@item.CategoryStatus</td>
+                <td>@item.CategoryStatus</td>
+                
             </tr>
         }
 
     </table>
+    <br />
+    <a class="btn btn-success" href="/Category/AddCategory">Yeni Kategori</a>
 </body>
 </html>

@@ -16,3 +16,5 @@ C:\Users\cosku\source\repos\IlifSozluk\BusinessLayer\obj\Debug\BusinessLayer.csp
 C:\Users\cosku\source\repos\IlifSozluk\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\cosku\source\repos\IlifSozluk\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\cosku\source\repos\IlifSozluk\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\cosku\source\repos\IlifSozluk\BusinessLayer\bin\Debug\FluentValidation.dll
+C:\Users\cosku\source\repos\IlifSozluk\BusinessLayer\bin\Debug\FluentValidation.xml
