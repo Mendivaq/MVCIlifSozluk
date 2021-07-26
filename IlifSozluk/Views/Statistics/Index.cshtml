@@ -1,0 +1,83 @@
+﻿@using EntityLayer.Concrete
+@model List<Category>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="row">
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-warning card-img-holder text-black">
+            <div class="card-body">
+                <img src="/PurpleAdmin-Free-Admin-Template-master/assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                <h4 class="font-weight-normal mb-3">
+                    Toplam Kategori Sayısı <i class="mdi mdi-chart-line mdi-24px float-right"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.d1</h2>
+                @*<h6 class="card-text">Increased by 60%</h6>*@
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-info card-img-holder text-black">
+            <div class="card-body">
+                <img src="/PurpleAdmin-Free-Admin-Template-master/assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                <h4 class="font-weight-normal mb-3">
+                    "Yazılım" kategorisine ait başlık sayısı <i class="mdi mdi-bookmark-outline mdi-24px float-right"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.d2</h2>
+                @*<h6 class="card-text">Decreased by 10%</h6>*@
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-success card-img-holder text-black">
+            <div class="card-body">
+                <img src="/PurpleAdmin-Free-Admin-Template-master/assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                <h4 class="font-weight-normal mb-3">
+                    Yazar adında 'a' harfi geçen yazar sayısı <i class="mdi mdi-diamond mdi-24px float-right"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.d3</h2>
+                @*<h6 class="card-text">Increased by 5%</h6>*@
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-secondary card-img-holder text-black">
+            <div class="card-body">
+                <img src="/PurpleAdmin-Free-Admin-Template-master/assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                <h4 class="font-weight-normal mb-3">
+                    En fazla başlığa sahip kategori adı <i class="mdi mdi-diamond mdi-24px float-right"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.d4</h2>
+                @*<h6 class="card-text">Increased by 5%</h6>*@
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-primary card-img-holder text-black">
+            <div class="card-body">
+                <img src="/PurpleAdmin-Free-Admin-Template-master/assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                <h4 class="font-weight-normal mb-3">
+                    Kategorilerdeki  durumu aktif veya pasif olanların ortalaması <i class="mdi mdi-diamond mdi-24px float-right"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.d5</h2>
+                @*<h6 class="card-text">Increased by 5%</h6>*@
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-danger card-img-holder text-black">
+            <div class="card-body">
+                <img src="/PurpleAdmin-Free-Admin-Template-master/assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                <h4 class="font-weight-normal mb-3">
+                    Pasif durumda olan kategori sayısı <i class="mdi mdi-diamond mdi-24px float-right"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.d6</h2>
+                @*<h6 class="card-text">Increased by 5%</h6>*@
+            </div>
+        </div>
+    </div>
+</div>

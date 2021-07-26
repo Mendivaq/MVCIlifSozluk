@@ -49,7 +49,8 @@ namespace DataAccessLayer.Concrete.Repositories
 
         public void Update(T p)
         {
-            throw new NotImplementedException();
+            
+            c.SaveChanges();
         }
     }
 }
