@@ -15,3 +15,9 @@ C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer
 C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
 C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writerTitle_added.resources
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_img_size_change.resources
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_add_status.resources
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_content_status_add.resources
+C:\Users\cosku\source\repos\IlifSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_heading_status_added.resources

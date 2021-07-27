@@ -1,0 +1,63 @@
+﻿@using EntityLayer.Concrete
+@model List<Content>
+@{
+    ViewBag.Title = "ContentByHeading";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Başlık ile alakalı içerikler</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="/advanced-timeline-html-css-javascript/dist/style.css">
+
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+
+    <div style="background-color: mediumpurple; border-radius: 15px; margin: 5px; overflow: scroll" class="box">
+        @foreach (var item in Model)
+        {
+            <br />
+        <div style="width:100%;border-radius:25px" class="col-md-11 stretch-card grid-margin">
+
+            <div class="card bg-gradient-dark card-img-holder text-white">
+                
+                <div class="card-body">
+                    <i class="mdi mdi-comment" style="color:mediumpurple;font-size:25px;margin-left:-25px;"></i>
+
+                    <img src="/PurpleAdmin-Free-Admin-Template-master/assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                    <div class="title">@item.Writer.WriterName @item.Writer.WriterSurName </div>
+                    <div class="info">@item.ContentValue</div>
+                    <div class="time">
+                        <span style="margin-left:705px;margin-top:150px"><a style="font-size:10px">@(((DateTime)item.ContentDate).ToString("dd-MMM-yyyy"))</a></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+                @*<li style="first-list">
+                    <span></span>
+                    <div class="title">@item.Writer.WriterName @item.Writer.WriterSurName </div>
+                    <div class="info">@item.ContentValue</div>
+                    <div class="time">
+                        <span style="margin-left:-5px">@(((DateTime)item.ContentDate).ToString("dd-MMM-yyyy"))<br /></span>
+                        <span></span>
+                    </div>
+                </li>*@
+
+            
+
+        }
+
+    </div>
+
+   
+    <!-- partial -->
+    <script src="/advanced-timeline-html-css-javascript/dist/script.js"></script>
+    <script src="/advanced-timeline-html-css-javascript/dist/script.js"></script>
+</body>
+</html>

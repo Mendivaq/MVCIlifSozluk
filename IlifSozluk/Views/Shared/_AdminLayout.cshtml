@@ -196,19 +196,19 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href="/AdminCategory/Index">
                             <span class="menu-title">Kategoriler</span>
                             <i class="mdi mdi-format-align-justify menu-icon"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href="/Heading/Index">
                             <span class="menu-title">Başlıklar</span>
                             <i class="mdi mdi-bookmark menu-icon"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href="/Writer/Index">
                             <span class="menu-title">Yazarlar</span>
                             <i class="mdi mdi-grease-pencil menu-icon"></i>
                         </a>
@@ -227,7 +227,7 @@
                         </a>
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="/Statistics/Index/">Sorgular</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="/Statistics/Index">Sorgular</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="">Grafik 2</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="">Grafik 3</a></li>
                             </ul>
@@ -299,24 +299,29 @@
             <!-- partial -->
             <div class="main-panel">
                 <div class="content-wrapper">
-                    <div class="page-header">
-                        <h3 class="page-title">
-                            <span class="page-title-icon bg-gradient-primary text-white mr-2">
-                                <i class="mdi mdi-home"></i>
-                            </span> Admin Panel içerik kısmı isimleri buraya gelecek
-                        </h3>
-                        <nav aria-label="breadcrumb">
-                            <ul class="breadcrumb">
-                                <li class="breadcrumb-item active" aria-current="page">
-                                    <span></span>Genel Bakış  <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                    
                     <div class="row" id="proBanner">
+
                         <div class="col">
                             <span class="d-block align-items-md-center purchase-popup">
+                                <div class="page-header">
+                                    <h3 class="page-title">
+                                        <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                                            <i style="color:white" class="mdi mdi-home"></i>
+                                        </span> 
+                                    </h3>
+                                    <nav aria-label="breadcrumb">
+                                        <ul class="breadcrumb">
+                                            <li class="breadcrumb-item active" aria-current="page">
+                                                <span></span>Genel Bakış  <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+                                            </li>
+                                        </ul>
+                                    </nav>
+
+                                </div>
+
                                 @RenderBody()
+
                             </span>
                             
                         </div>

@@ -1,0 +1,117 @@
+﻿@using EntityLayer.Concrete
+@model List<Writer>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Yazarlar</h1>
+
+
+
+@*<table class="table table-hover">
+
+        <tr>
+            <th>ID</th>
+            <th>Yazar Adı</th>
+            <th>Yazar Soyadı</th>
+            <th>Mail</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.WriterID</td>
+                <td>@item.WriterName</td>
+                <td>@item.WriterSurName</td>
+                <td>@item.WriterMail</td>
+            </tr>
+        }
+
+
+
+
+
+
+    </table>*@
+
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+
+        <div class="">
+            <div class="card-body pb-0">
+                <div class="row d-flex align-items-stretch">
+
+                    @foreach (var item in Model)
+                    {
+
+                    <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+                        <div style="margin-bottom:25px" class="card bg-gradient-info card-img-holder text-black">
+                            <div class="card-header text-white border-bottom-0">
+                                @item.WriterTitle
+                            </div>
+                            <div class="card-body pt-0">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <br>
+                                        <h2 class="lead"><b>@item.WriterName @item.WriterSurName</b></h2>
+                                        <p class="text-white text-sm"><b>Hakkında: </b> @item.WriterAbout</p>
+                                        <br />
+                                        <ul class="ml-4 mb-0 fa-ul text-black">
+                                            <li class="text-white"><span class="fa-li"><i class="mdi mdi-email"></i></span> Mail: @item.WriterMail</li>
+                                            @*<li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Telefon #: + 800 - 12 12 23 52</li>*@
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-5 text-center">
+                                        <br />
+                                        <img src="/PurpleAdmin-Free-Admin-Template-master/assets/images/faces/face1.jpg" alt="" class="img-circle img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-footer">
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-sm btn-dark">
+                                        <i style="color:white" class="mdi mdi-comment-processing">Yazarın Başlıkları</i>
+                                    </a>
+                                    <a href="/Writer/EditWriter/@item.WriterID" class="btn btn-sm btn-primary">
+                                        <i style="color:white" class="mdi mdi-human-male"> Profili Düzenle</i>
+
+
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                        
+
+
+
+                    }
+
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </section>
+    
+</body>
+</html>

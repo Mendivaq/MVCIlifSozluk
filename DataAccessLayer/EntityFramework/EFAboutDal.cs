@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    class EFAboutDal
+   public class EFAboutDal
     {
     }
 }
